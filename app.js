@@ -36,8 +36,34 @@ new Vue({
           message: 'It’s not the years in your life that count. It’s the life in your years.',
           author: '- Abraham Lincoln'
         },
-
-
+        {
+          message: 'The two most important days in your life are the day you are born and the day you find out why.',
+          author: '- Mark Twain'
+        },
+        {
+          message: 'The question isn’t who is going to let me; it’s who is going to stop me.',
+          author: '- Ayn Rand'
+        },
+        {
+          message: 'Build your own dreams, or someone else will hire you to build theirs.',
+          author: '- Farrah Gray'
+        },
+        {
+          message: 'Ask and it will be given to you; search, and you will find; knock and the door will be opened for you.',
+          author: '- Jesus'
+        },
+        {
+          message: 'Certain things catch your eye, but pursue only those that capture the heart.',
+          author: '- Ancient Indian Proverb'
+        },
+        {
+          message: 'I would rather die of passion than of boredom.',
+          author: '- Vincent van Gogh'
+        },
+        {
+          message: 'Life is what happens to you while you’re busy making other plans.',
+          author: '- John Lennon'
+        },
       ]
     }
   },

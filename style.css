@@ -6,8 +6,41 @@ body {
 }
 
 .main-container {
-  width: 500px;
-  height: 250px;
+  width: 600px;
+  height: 350px;
   background: white;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+
+#twitter, #tumblr {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+
+#twitter img {
+  width: 25px;
+  height: 25px;
+}
+
+#tumblr img {
+  width: 25px;
+  height: 25px;
+}
+
+#new {
+  background-color: white;
+  color: black;
 }
