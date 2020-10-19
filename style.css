@@ -44,3 +44,10 @@ img {
   background-color: white;
   color: black;
 }
+
+@media screen and (max-width: 450px) {
+  .main-container {
+    width: 300px;
+    height: 450px;
+  }
+}
