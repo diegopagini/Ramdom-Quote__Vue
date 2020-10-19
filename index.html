@@ -17,13 +17,13 @@
   <div id=app>
     <div class="main-container z-depth-2">
       <div class="random-qoute">
-        <p class="center">{{ quotes.quote }}</p>
+        <h4 class="center">{{ quote }}</h4>
         <p class="center">{{ author }}</p>
       </div>
       <div class="section container">  
         <button class="btn left" id="twitter"><img src="./assets/twitter.png" alt="twitter"></button>
         <button class="btn left" id="tumblr"><img src="./assets/tmblr.png" alt="tumblr"></button>
-        <button class="btn right waves-effect waves-light" id="new">New Quote</button>
+        <button class="btn right waves-effect waves-light" id="new" v-on:click="newQuote()">New Quote</button>
       </div>
     </div>
 

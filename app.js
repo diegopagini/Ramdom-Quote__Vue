@@ -69,11 +69,19 @@ new Vue({
   },
 
   computed: {
+    showQuote: function() {
+      return this.quotes
+    }
   },
 
   methods: {
-    showQuote() {
-      return this.quotes[0].quote
+    newQuote() {
+      acc = 0;
+      const showNext = {
+        quote: this.quotes[acc],
+        author: this.author[acc]
+      }
+      acc++;
     }
   }
 
