@@ -20,6 +20,13 @@ img {
   width: 100%;
 }
 
+.center.padding {
+  padding: 20px;
+}
+
+.btn.right.waves-effect {
+  background: transparent;
+}
 
 #twitter, #tumblr {
   background-color: white;
@@ -28,7 +35,6 @@ img {
   align-items: center;
   margin-right: 10px;
 }
-
 
 #twitter img {
   width: 25px;

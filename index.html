@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" href="./assets/pluma.jpg">
+    <link rel="icon" href="./assets/pluma.jpg" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-  <title>Random-Message</title>
-</head>
-<body>
-
-  <div id=app>
-    <div class="main-container z-depth-2">
-      <div class="random-qoute">
-        <h4 class="center">{{ quote }}</h4>
-        <p class="center">{{ author }}</p>
-      </div>
-      <div class="section container">  
-        <button class="btn left" id="twitter"><img src="./assets/twitter.png" alt="twitter"></button>
-        <button class="btn left" id="tumblr"><img src="./assets/tmblr.png" alt="tumblr"></button>
-        <button class="btn right waves-effect waves-light" id="new" v-on:click="newQuote()">New Quote</button>
+    <title>Random-Message</title>
+  </head>
+  <body id="body">
+    <div>
+      <div class="main-container z-depth-2" id="container">
+        <div class="random-qoute" id="show">
+          <h4 class="center padding">Ask and it will be given to you; search, and you will find; knock and the door will be opened for you.</h4>
+          <p class="center">- Jesus</p>
+        </div>
+        <div class="section container">
+          <!-- <button class="btn left" id="twitter">
+            <img src="./assets/twitter.png" alt="twitter" />
+          </button>
+          <button class="btn left" id="tumblr">
+            <img src="./assets/tmblr.png" alt="tumblr" />
+          </button> -->
+          <button
+            class="btn right waves-effect waves-light"
+            id="new"
+            v-on:click="newQuote()"
+          >
+            New Quote
+          </button>
+        </div>
       </div>
     </div>
 
-  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
